@@ -11,7 +11,7 @@ html, body {
 }
 
 header {
-    padding-left: 30px;
+    padding-left: 150px;
 }
 
 h1 {
@@ -233,14 +233,23 @@ a {
 
 thead {
     text-align: center;
+    background-color: #136B5B;
+}
+
+th {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #136B5B;
+    color: #fff;
 }
 
 table {
     width : 100%;
 }
 
-td, th {
-    padding: 5px;
+td {
+    padding: 10px;
+    margin: 5px;
     border: 1px solid black;
 }
 
