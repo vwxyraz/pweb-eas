@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+
+header {
+    padding-left: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+h2 {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+}
+
+h3, h4 {
+    font-weight: lighter;
+    font-size: 16px;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidenav {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background: #4BB2A0;
+    padding: 50px 0px 50px 0px;
+    float: left;
+}
+
+.profile {
+    width: 100%;
+    height: max-content;
+    padding-bottom: 20px;
+}
+
+.column {
+    flex: 50%;
+}
+
+.profile-name {
+    display: block;
+    /* height: left; */
+    text-align: center;
+    color: #fff;
+    margin: 10px 0 5px;
+}
+
+.profile img {
+    display: block;
+	width: 100px;
+	height: 100px;
+    border-radius: 50%;
+	margin: 0 auto;
+}
+
+.profile p {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sidenav a {
+    display: block;
+    padding: 15px 10px 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+  
+.sidenav a:hover {
+    color: #136B5B;
+    background-color: #fff;
+}
+  
+
+.content {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    margin-left: 20%;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 850px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    border: gray;
+    display: flex;
+    margin:auto;
+    flex-direction: row;
+}
+
+.card-title {
+    width: 185px;
+    height: 30px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #136B5B;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.card-title p {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-title-side {
+    /* display: inline-block; */
+    color: black;
+    margin: 7px;
+    padding: 0 10px 0px 10px;
+    text-align: left;
+}
+
+.card-info {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    display: block;
+}
+
+.card-info h4{
+    padding: 5px;
+    display: inline;
+}
+
+.card-col {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    /* width: 49%;
+    height: 100%; */
+}
+
+.card-row {
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.btn-1 {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #4BB2A0;
+    margin-right: 10px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-1 h4 {
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-1 img {
+    display: inline-block;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+.table-nilai {
+    width: 850px;
+    margin: auto;
+    display: flex;
+}
+
+.table-info {
+    width: 810px;
+    margin: auto;
+    padding: 20px;
+    display: block;
+    font-size: 18px;
+    border: 1px black;
+    background-color: #4BB2A0;
+}
+
+.table-info p {
+    color: #fff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+thead {
+    text-align: center;
+}
+
+table {
+    width : 100%;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.chart {
+    width: 850px;
+    text-align: center;
+    margin-left: 200px;
+}
+
