@@ -43,7 +43,7 @@
     <div class="content">
         <header>
             <h1>Result</h1>
-            <h3><a href="index.php" style="color: gray;">Result</a> / Semester 1</h3>
+            <h3><a href="index.php" style="color: gray;">Result</a> / Semester <?= $semester?></h3>
         </header>
 
         <div class="row">
